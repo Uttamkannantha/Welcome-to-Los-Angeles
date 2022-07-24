@@ -1,0 +1,235 @@
+/* navBar*/
+
+.parent {
+	position: absolute;
+	top: 0px;
+	left: 0;
+}
+
+.navBar {
+	position: relative;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 1440px;
+	height: 80px;
+	margin: 0;
+	padding: 0;
+	background-color: rgb(10, 10, 10);
+	text-align: center;
+}
+
+.navText {
+	position: relative;
+	top: 30px;
+	padding: 30px 60px;
+	text-decoration: none;
+	font-size: 22px;
+	color: rgb(236, 236, 236);
+	text-shadow: 1.2px 1.2px rgb(255, 166, 0);
+	font-family: Comfortaa;
+	font-weight: 100;
+}
+
+.navText:hover {
+	color: rgb(204, 130, 33);
+}
+
+
+/* Section 1 was abs*/
+
+.container {
+	position: absolute;
+	top: -525px;
+	left: 0;
+	right: 0;
+	padding-top: 80px;
+	color: rgb(228, 113, 19);
+}
+
+.section_1 {
+	position: absolute;
+	max-width: 1440px;
+	max-height: 960px;
+	clip: rect(525px, 1440px, 870px, 0px);
+}
+
+.centered_text {
+	position: absolute;
+	top: 770px;
+	left: 700px;
+	transform: translate(-50%, -50%);
+	font-size: 32px;
+	text-shadow: 1.2px 1.2px rgb(224, 215, 198);
+	font-family: Montserrat;
+	font-weight: bold;
+}
+
+
+/* 3 cards */
+
+.section2 {
+	margin-top: 425px;
+	height: 730px;
+	background-color: #212529;
+	margin-left: -10px;
+	margin-right: -10px;
+	width: 1440px;
+}
+
+.column {
+	/*float: left;*/
+	width: 250px;
+	padding: 0 50px;
+}
+
+
+/* Remove extra left and right margins, due to padding */
+
+.row {
+	display: grid;
+	grid-template-columns: 250px 250px 250px;
+	position: relative;
+	left: 170px;
+	top: 150px;
+	gap:100px;
+}
+
+.card {
+	padding: 16px;
+	text-align: left;
+	background-color: #12141c;
+	height: 400px;
+	width: 270px;
+	position: relative;
+	border-radius: 5px;
+	color: white;
+	font-family: Montserrat;
+}
+
+.cardImage {
+	width: 270px;
+	height: 160px;
+	border-radius: 3px;
+}
+
+
+/*Section 3*/
+
+.section3 {
+	height: 600px;
+	background-color: #12141c;
+	margin-left: -10px;
+	margin-right: -10px;
+	width: 1440px;
+}
+
+.column_section3 {
+	float: left;
+	width: 560px;
+}
+
+.section3_card {
+	padding: 16px;
+	background-color: #12141c;
+	height: 300px;
+	position: relative;
+	border-radius: 5px;
+	color: white;
+	font-family: Montserrat;
+	font-size: 16px;
+	text-align: justify;
+}
+
+.section3_cardImage {
+	width: 450px;
+	height: 260px;
+	border-radius: 3px;
+}
+
+
+/* Section 4*/
+
+
+.section4_row {
+	display:grid;
+	grid-template-columns: 400px 270px;
+	position: relative;
+	left: 190px;
+	top: 150px;
+	gap:100px;
+}
+
+.column_section4 {
+	float: left;
+	width: 560px;
+}
+
+.section4_card_text {
+	padding: 16px;
+	background-color: #212529;
+	height: 200px;
+	width: 700px;
+	position: relative;
+	border-radius: 5px;
+	color: white;
+	font-family: Montserrat;
+	font-size: 15px;
+	text-align: justify;
+}
+
+.section4_card_image {
+	padding: 16px;
+	background-color: #212529;
+	height: 200px;
+	width: 300px;
+	position: relative;
+	border-radius: 5px;
+	color: white;
+	font-family: Montserrat;
+	font-size: 14px;
+	text-align: justify;
+}
+
+.section4_cardImage {
+	width: 270px;
+	height: 170px;
+	border-radius: 3px;
+}
+
+
+/*Footer section*/
+
+.footer_section {
+	display: grid;
+	grid-template-columns: 500px 300px;
+	gap: 100px;
+	height: 230px;
+	background-color: #12141c;
+	margin-left: -10px;
+	margin-right: -10px;
+	margin-bottom: -10px;
+	width: 1440px;
+}
+
+.footer_column {
+	float: left;
+	text-align: center;
+	width: 550px;
+	padding: 16px;
+	position: relative;
+	border-radius: 5px;
+	color: white;
+	font-family: Montserrat;
+	font-size: 15px;
+	margin-left: 50px;
+}
+
+.link {
+	text-decoration: none;
+	color: white;
+}
+
+.link:hover {
+	text-decoration: underline;
+}
